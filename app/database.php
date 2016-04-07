@@ -16,13 +16,13 @@ return [
     // 数据库连接DSN配置
     'dsn'         => '',
     // 服务器地址
-    'hostname'    => '127.0.0.1',
+    'hostname'    => '192.168.1.59',
     // 数据库名
-    'database'    => 'nanchuan',
+    'database'    => 'xingshe',
     // 数据库用户名
-    'username'    => 'root',
+    'username'    => 'xingshe',
     // 数据库密码
-    'password'    => '',
+    'password'    => 'xingshe1234',
     // 数据库连接端口
     'hostport'    => '',
     // 数据库连接参数
