@@ -1,0 +1,37 @@
+{
+    "name": "livingvirus/think_kang",
+    "description": "the new new thinkphp framework",
+    "type": "project",
+    "keywords": ["framework", "thinkphp", "ORM"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "livingvirus",
+            "email": "livingviruskang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "livingvirus/framework": "RC3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    },
+    "require-dev": {
+        "johnkary/phpunit-speedtrap": "^1.0",
+        "mikey179/vfsStream": "~1.6",
+        "phploc/phploc": "*",
+        "phpunit/phpunit": "4.8.*",
+        "sebastian/phpcpd": "*",
+        "squizlabs/php_codesniffer": "2.*"
+    }
+
+}
