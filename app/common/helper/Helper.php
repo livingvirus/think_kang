@@ -1,5 +1,5 @@
 <?php
-namespace app;
+namespace common\helper;
 
 class Helper extends AnotherClass
 {
