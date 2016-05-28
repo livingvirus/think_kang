@@ -1,4 +1,5 @@
 <?php
+
 return [
     // +----------------------------------------------------------------------
     // | 应用设置
@@ -33,20 +34,18 @@ return [
     // +----------------------------------------------------------------------
     // | 模块设置
     // +----------------------------------------------------------------------
-
-    // 默认模块名
-    'default_module'         => 'index',
-    // 禁止访问模块
-    'deny_module_list'       => ['common', 'runtime'],
-    // 默认控制器名
-    'default_controller'     => 'Login',
-    // 默认操作名
-    'default_action'         => 'index',
-    // 默认的空控制器名
-    'empty_controller'       => 'Error',
-    // 操作方法后缀
-    'action_suffix'          => '',
-
+    'module'                 => [
+        // 默认模块名
+        'default_module'     => 'index',
+        // 禁止访问模块
+        'deny_module_list'   => ['common', 'runtime'],
+        // 默认控制器名
+        'default_controller' => 'index',
+        // 默认操作名
+        'default_action'     => 'index',
+        // 操作方法后缀
+        'action_suffix'      => '.html',
+    ],
     // +----------------------------------------------------------------------
     // | URL设置
     // +----------------------------------------------------------------------
@@ -97,7 +96,7 @@ return [
     // +----------------------------------------------------------------------
 
     // 异常页面的模板文件
-    'exception_tmpl'         => THINK_PATH . 'tpl' . DS . 'think_exception.tpl',
+    'exception_tmpl'         => APP_PATH . COMMON_MODULE . '/view/error' . DS . 'think_exception.tpl',
     // 异常处理忽略的错误类型，支持PHP所有的错误级别常量，多个级别可以用|运算法
     // 参考：http://php.net/manual/en/errorfunc.constants.php
     'exception_ignore_type'  => 0,
