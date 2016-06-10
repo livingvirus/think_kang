@@ -5,8 +5,8 @@ class Index
 {
     public function index()
     {
-        I('username', 'testset');
-        var_dump(I('username'));die;
+        echo 111;
+		return 1222222;
     }
     public function test()
     {
