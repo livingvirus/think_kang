@@ -2,6 +2,12 @@
 调用https://github.com/livingvirus/framework
 此仓库是引用现用以及上面的。尽可能兼容
 
+引用一个define  CONF 配置文件路径
+配置文件中定义runtime  apppath 等等 IS_WIN
+
+Controller 作为外面可以访问的
+View 作为模板
+
 
 代码规范遵循 PSR2 PSR3 自动加载遵循 PSR4
 Input 类
