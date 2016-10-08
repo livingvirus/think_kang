@@ -13,10 +13,5 @@
     "require": {
         "php": ">=5.4.0",
         "livingvirus/framework": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "": "app/"
-        }
     }
 }

@@ -10,11 +10,6 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 // 应用入口文件
-// 定义项目路径
-define('APP_PATH', __DIR__ . '/../app/');
-// 开启调试模式
-define('APP_DEBUG', true);
 // 加载框架引导文件
+define('CONF_PATH', __DIR__ . '/../Config/'); // 配置文件目录
 require __DIR__ . '/../vendor/autoload.php';
-// 执行应用
-\think\App::run();

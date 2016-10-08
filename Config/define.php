@@ -1,13 +1,12 @@
 <?php
 return [
-	'THINK_VERSION' => '5.0.1',
 	'THINK_START_TIME' => microtime(true),
 	'THINK_START_MEM' => memory_get_usage(),
 	'EXT' => '.php',
 	'CONF_EXT' => '',
 	'ENV_PREFIX' => 'PHP_',
 	'DS' => DIRECTORY_SEPARATOR,
-	'THINK_PATH' => __DIR__ . DS,
+	'THINK_PATH' => __DIR__,
 	'APP_PATH' => '',
 	'RUNTIME_PATH' => '',
 	'LOG_PATH' => '',
