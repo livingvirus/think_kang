@@ -12,6 +12,7 @@ return [
 	'LOG_PATH' => '',
 	'CACHE_PATH' => '',
 	'TEMP_PATH' => '',
+	'VIEW_PATH' => '',
 	'ENV_PREFIX' => '',
 	'EXTEND_PATH' => '',
 	'IS_CLI' => PHP_SAPI == 'cli' ? true : false,
